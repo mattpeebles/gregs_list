@@ -1,0 +1,130 @@
+/** Navigation Bar **/
+nav > div {
+	width:100%;
+	height: 50px;
+	position: fixed;
+	background-color: beige;
+	top: 0;
+	right: 0;
+	display: inline-block;
+}
+
+.navtitle {
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+.navlist {
+	list-style: none;
+	text-align: right;
+	position: relative;
+	bottom: 50px;
+}
+
+.li-post {
+	position: absolute;
+	margin-top: 15px;
+	margin-bottom: auto;
+	right: 100px;
+	color: purple;
+}
+
+.li-account {
+	position: absolute;
+	margin-top: 15px;
+	margin-bottom: auto;
+	right: 25px;
+	color: purple;
+}
+
+/** Search Bar **/
+.search {
+	position: relative;
+	height: 75px;
+	width:100%;
+	margin-left: -10px;
+	margin-top: 55px;
+
+}
+
+form > label {
+	position: absolute;
+	font-size: 14px;
+	bottom: 30px;
+	left: 75px;
+	padding-bottom: 5px;
+}
+
+form > input {
+	position: absolute;
+	left: 73px;
+	top: 40px;
+	width: 350px;
+}
+
+form > img {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	left: 440px;
+	top: 40px; 
+}
+
+/** Number Bar **/
+.numberbar{
+	position: relative;
+	height: 50px;
+	top: 15px;
+	margin-left: 60px;
+}
+
+.barset {
+	float: left;
+}
+
+.button {
+ border: 1px grey solid;
+ padding: 5px 10px;
+ font-size: 14px;
+ margin-bottom: 18px;
+ margin-top: 15px
+}
+
+.prev {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.next {
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.numberdisplay {
+	border: 1px grey solid;
+	background-color: #FCFCFC;
+	width: 200px;
+	height: 18px;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 5px 5px;
+}
+
+/** Result **/
+.result {
+	position: relative;
+	margin-left: 60px;
+	margin-top: 10px;
+	padding-top: 30px
+}
+
+.spacetime{
+	font-size: 12px;
+	color: grey;
+}
+
+.title {
+	color: blue;
+	font-weight: bold;
+}
